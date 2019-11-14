@@ -1,23 +1,52 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>CSS</title>
-  <style media="screen">
-.things{
-  color: green;
+<title> My first Web page </title>
+<meta charset="utf-8">
+<style media="screen">
+a{
+color: inherit;
+text-decoration: none;
 }
-#lee{color: red;}
-  </style>
-
-<p><title>My First Web Page</title></p>
+h1{
+  color : coral;
+  font-size: 50px;
+  border-bottom: 1px gray solid;
+  margin-bottom: 0px;
+text-align: center;
+padding-bottom: 10px;
+}
+ol{
+border-right: 1px solid gray;
+font-size: 20px;
+width:100px;
+color: coral;
+}
+#grid{
+display: grid;
+grid-template-columns: 150px 1fr;
+}
+</style>
 </head>
-<body>
+  <body>
 
-<p><h1><font color="green"><a href="index.html" class="things">My First Web Page</a></font></h1></p>
+<h1><a href="index.html">Kiki's Web page</a></h1>
+<div id="grid">
+
+
 <ol>
-
-  <li><span style="font-size:30px"><a href="Barcelona.html" class="things" id="lee"> Barcelona</a></span></li>
-  <li>><span style="font-size:30px"><a href="Retriever.html">Retriever</a></span></li>
-  <li><span style="font-size:30px"><a href="Spiderman New Universe.html">Spiderman New Universe</a></span></li>
+<li><a href="Barcelona.html">Barcelona</a></li>
+<li><a href="Retriever.html">Retriever</a></li>
+<li><a href="Movie.html">Movie</a></li>
 </ol>
+
+
+<div id="article">
+<h2>Kiki?</h2>
+<p>
+22-year-old girl. university student. studying Food and Nutrition. cat person, but at the same time dog person. love Retrievers. zzangjulmi.  love movies.
+</p>
+</div>
+</div>
+</body>
+</html>
